@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Book from './components/Book';
-import Nav from './components/Nav';
+import Book from './components/Article';
+import Nav from './components/Navbar';
 import Categories from './components/Categories';
 import './App.css';
 import { fetchBooks } from './redux/books/booksSlice';
